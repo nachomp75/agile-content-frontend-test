@@ -1,0 +1,44 @@
+.textfield {
+  height: 30px;
+  position: relative;
+  width: 500px;
+}
+
+.textfield::before {
+  content: '🔍';
+  font-size: 13px;
+  left: 10px;
+  position: absolute;
+  top: 6px;
+}
+
+.textfield > input {
+  border: 1px solid var(--background-secondary);
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 40px;
+  transition: all ease 0.5s;
+  width: 100%;
+}
+
+.textfield > input:focus-visible {
+  background: var(--background-secondary);
+  border-color: var(--color-font-secondary);
+  box-shadow: var(--shadow-default);
+  outline: 0;
+}
+
+.textfield > span {
+  cursor: pointer;
+  font-size: 13px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+@media (max-width: 576px) {
+  .textfield {
+    width: 90%;
+  }
+}

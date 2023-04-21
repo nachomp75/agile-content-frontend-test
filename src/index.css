@@ -1,0 +1,23 @@
+:root {
+  --background-primary: white;
+  --background-secondary: lavender;
+  --background-tertiary: ghostwhite;
+  --color-font-primary: #242424;
+  --color-font-secondary: #bbbbbb;
+  --shadow-default: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: var(--color-font-primary);
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}

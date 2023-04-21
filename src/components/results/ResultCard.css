@@ -1,0 +1,44 @@
+.result-card {
+  background-color: white;
+  border: 1px solid var(--background-secondary);
+  border-radius: 4px;
+  box-shadow: var(--shadow-default);
+  box-sizing: border-box;
+  height: fit-content;
+  margin-right: 0;
+  padding: 10px;
+}
+
+.result-card * {
+  width: 100%;
+}
+
+.result-caption > .url {
+  font-size: small;
+}
+
+.result-caption > .title {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .result-frame {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+
+  .result-card {
+    left: 50%;
+    margin: auto;
+    min-width: 250px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

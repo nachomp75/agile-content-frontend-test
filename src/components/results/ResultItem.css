@@ -1,0 +1,14 @@
+.result-item {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.result-item > .url {
+  font-size: small;
+}
+
+.result-item > .title {
+  color: blue;
+  font-size: large;
+  margin-top: 10px;
+}

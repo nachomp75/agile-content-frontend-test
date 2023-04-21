@@ -1,0 +1,24 @@
+.results-loading,
+.results-page {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 30px 50px;
+}
+
+.results-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media (max-width: 992px) {
+  .results-page {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .results-page {
+    padding: 30px;
+  }
+}
