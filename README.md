@@ -39,7 +39,7 @@ details):
 - Build this application as a production grade code.
 - Focus on replicating the given screenshots/design
 - Provide at least one test validating some use cases
-- What would you have done differently if you had more time? Why? [Answer below](#response)
+- What would you have done differently if you had more time? Why? [Answer below](#what-would-you-have-done-differently-if-you-had-more-time)
 
 ## Screenshots
 
@@ -101,7 +101,7 @@ export default data
 
 _It would be great to read them as a promise that takes some seconds even though they are static data._
 
-## What would you have done differently if you had more time? Why?
+## What would you have done differently if you had more time?
 
 In a larger scale application with more development time I would have given more importance to code robustness. I would do this by improving the code coverage through more unit and integration tests and by adding end-to-end tests with tools like Cypress or Playwright.
 
