@@ -105,7 +105,7 @@ _It would be great to read them as a promise that takes some seconds even though
 
 In a larger scale application with more development time I would have given more importance to code robustness. I would do this by improving the code coverage through more unit and integration tests and by adding end-to-end tests with tools like Cypress or Playwright.
 
-It would also improve the functionality already developed by adding strong contingency handling: handling of erroneous requests, form validations, error boundaries, etc.
+I would also enhance the already developed functionalities by adding strong handling of unexpected situations: handling of wrong requests, form validations, error boundaries, etc.
 
 I would improve the project structure to make it more scalable: segmenting by responsibilities, grouping potentially reusable functionality, better CSS styling architecture...
 
